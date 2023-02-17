@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Мій особистий блог</title>
-    <link rel="stylesheet" href="css/file.css">
+    <link rel="stylesheet" href="css/registration.css">
 </head>
 <body>
     <header class="header">
@@ -21,9 +21,12 @@
             </nav>
         </div>
     </header>
+
+
+
     <div class="registr">
         <div class="registr_header">
-            <h2 class="registr_title">Вхід до блогу</h2>
+            <h2 class="registr_title">Реєстрація користувача</h2>
         </div>
         <div class="registr_content">
             <div class="field">
@@ -31,18 +34,43 @@
                 <input type="text" name="username" value="">
             </div>
             <div class="field">
+                <p class="first_cont">Прізвище</p>
+                <input type="text" name="surname" value="">
+            </div>
+            <div class="field">
+                <p class="first_cont"> Логін</p>
+                <input type="text" name="login" value="">
+            </div>
+            <div class="field">
+                <p class="first_cont"> Навчальна група</p>
+                <select name="number" autofocus>
+                    <option>201</option>
+                    <option>202</option>
+                    <option>203</option>
+                    <option>204</option>
+                    </select>
+            </div>
+            <div class="field">
                 <p class="second_cont">Пароль:</p>       
+                <input type="password" name="password" id="">
+            </div>
+            <div class="field">
+                <p class="second_cont">Підтвердження пароля:</p>       
                 <input type="password" name="password" id="">
             </div>
             <div class="divbtn">
                 <button class="btn">
-                    <h3 class="btn_text">Увійти</h3>
+                    <h3 class="btn_text">Зареєструватися</h3>
                 </button>
             </div>
             
            
         </div>
     </div>
+    </div>
+
+
+
 
     <footer class="footer">
         <div class="foot">
